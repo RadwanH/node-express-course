@@ -1,5 +1,4 @@
 const express = require('express');
-const router = require('./routes/people');
 const app = express();
 const people = require('./routes/people');
 const auth = require('./routes/auth');
